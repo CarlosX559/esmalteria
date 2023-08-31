@@ -2,7 +2,7 @@ function menu() {
     $(".menu_mobile_open").click(
         function () {
 
-            $('.menu_mobile').css('display', 'flex').css('top', '150px').css('animation', 'move ease-in 400ms');
+            $('.menu_mobile').css('display', 'flex').css('top', '118px').css('animation', 'move ease-in 400ms');
             setTimeout(() => {
                 $('.menu_mobile_open').css('display', 'none');
                 $('.menu_mobile_close').css('display', 'flex');
