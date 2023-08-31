@@ -185,10 +185,20 @@ nav ul li a {
     justify-content: center;
     align-items: center;
     border-radius: 48px;
-    background: #F6F1EC;
+    background-color: #F6F1EC;
     max-width: 216px;
     padding: 10px 25px;
+    transition: all ease 200ms;
 }
+
+.btn_slide:hover {
+    background-color: #777A6F;
+}
+
+.btn_slide:hover > h2 {
+    color: #FFFFFF;
+}  
+
 
 .btn_slide h2 {
     color: #777A6F;
@@ -747,7 +757,17 @@ footer {
     background: #F6F1EC;
     max-width: 216px;
     padding: 10px 25px;
+    transition: all ease 200ms;
 }
+
+.btn_footer:hover {
+    background-color: #777A6F;
+}
+
+.btn_footer:hover > h2 {
+    color: #FFFFFF;
+}  
+
 
 .btn_footer h2 {
     color: #777A6F;
