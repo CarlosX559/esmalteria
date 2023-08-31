@@ -1029,6 +1029,11 @@ footer {
 
     .area_text_slide {
         max-width: 400px;
+        padding: 0px 20px;
+    }
+
+    .title_slide h2 {
+        font-size: 30px;
     }
 
     .area_texts_container_2_total {
