@@ -54,6 +54,56 @@
                     </nav>
 
                 </div>
+
+
+                <div class="menu_mobile">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    Quem somos
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Serviços
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Produtos
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Imagens
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Feedback
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Contato
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="menu_mobile_open">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+
+                <div class="menu_mobile_close">
+                    <div class="line_1"></div>
+                    <div class="line_2"></div>
+                </div>
+
             </div>
         </div>
 
@@ -241,11 +291,12 @@
             </div>
 
             <div class="area_servicos">
-
                 <div class="servicos">
-                    <img src="img/pes.png" alt="">
+                    <img class="area_principal_servicos" src="img/pes.png" alt="" data-title="Pés"
+                        data-sub-title="Nulla hendrerit tempus dignissim diam semper fames amet gravida quam. Enim quam morbi metus iaculis hac posuere porttitor suspendisse facilisis. Porta quam volutpat sagitti."
+                        data-src="img/modal_pes.png">
 
-                    <div class="info_servicos">
+                    <div class="info_servicos_title">
                         <h3>
                             Pés
                         </h3>
@@ -253,9 +304,11 @@
                 </div>
 
                 <div class="servicos">
-                    <img src="img/maos.png" alt="">
+                    <img class="area_principal_servicos" src="img/maos.png" alt="" data-title="Mãos"
+                        data-sub-title="Nulla hendrerit tempus dignissim diam semper fames amet gravida quam. Enim quam morbi metus iaculis hac posuere porttitor suspendisse facilisis. Porta quam volutpat sagitti."
+                        data-src="img/modal_maos.png">
 
-                    <div class="info_servicos">
+                    <div class="info_servicos_title">
                         <h3>
                             Mãos
                         </h3>
@@ -263,9 +316,11 @@
                 </div>
 
                 <div class="servicos">
-                    <img src="img/spa.png" alt="">
+                    <img class="area_principal_servicos" src="img/spa.png" alt="" data-title="Spa"
+                        data-sub-title="Nulla hendrerit tempus dignissim diam semper fames amet gravida quam. Enim quam morbi metus iaculis hac posuere porttitor suspendisse facilisis. Porta quam volutpat sagitti."
+                        data-src="img/modal_spa.png">
 
-                    <div class="info_servicos">
+                    <div class="info_servicos_title">
                         <h3>
                             Spa
                         </h3>
@@ -273,6 +328,45 @@
                 </div>
             </div>
 
+            <div class="area_modal">
+                <div class="area_modal_int">
+                    <div class="modal">
+                        <img class="close_modal" src="img/close.png" alt="">
+                        <img class="modal_img" src="" alt="">
+
+                        <div class="area_texts_modal">
+                            <div class="title_modal">
+                                <h2>
+
+                                </h2>
+                            </div>
+                            <div class="sub_title_modal">
+                                <p>
+
+                                </p>
+                            </div>
+                            <div class="area_info_modal">
+                                <div class="infos_modal">
+                                    <p>
+
+                                    </p>
+                                </div>
+                                <div class="infos_modal">
+                                    <p>
+
+                                    </p>
+                                </div>
+                                <div class="infos_modal">
+                                    <p>
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
 
             <div class="area_horarios">
                 <div class="area_horarios_int">
@@ -451,7 +545,7 @@
     </footer>
 
 
-    <script defer src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+    <script defer src="https://static.elfsight.com/platform/platform.js" data-use-service-core></script>
     <script src="js/jquery-3.6.1.min.js"></script>
     <script defer src="js/owl.carousel.min.js"></script>
     <script defer src="js/script.js"></script>
