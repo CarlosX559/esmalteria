@@ -87,6 +87,11 @@ nav ul li a {
     font-size: var(--font-size-subtitle);
     font-weight: 600;
     text-decoration: none;
+    transition: all ease 200ms;
+}
+
+nav ul li a:hover {
+    color: #BE868C;
 }
 
 /*Container 1*/
@@ -841,10 +846,6 @@ footer {
         gap: 8px;
         padding: 12px 8px;
         border-radius: 10px;
-    }
-
-    .menu_mobile nav ul li a:hover {
-        color: #AD4D56;
     }
 
     header {
