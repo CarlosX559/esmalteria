@@ -359,6 +359,7 @@ nav ul li a {
 }
 
 .area_modal {
+    transition: all ease 300ms;
     display: none;
     position: fixed;
     background-color: #f1eae3c7;

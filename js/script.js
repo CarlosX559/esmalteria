@@ -38,7 +38,13 @@ function modal() {
     service.forEach((element) => {
 
         element.addEventListener('click', () => {
+            document.querySelector('.area_modal').style.opacity = 0;
             document.querySelector('.area_modal').style.display = 'flex';
+            setTimeout(() => {
+                document.querySelector('.area_modal').style.opacity = 1;
+
+            }, 200);
+
 
             let title = document.querySelector('.title_modal h2');
             let sub_title = document.querySelector('.sub_title_modal p');
@@ -55,7 +61,12 @@ function modal() {
     let close_modal = document.querySelector('.close_modal');
 
     close_modal.addEventListener('click', () => {
-        document.querySelector('.area_modal').style.display = 'none';
+        document.querySelector('.area_modal').style.opacity = 0;
+
+        setTimeout(() => {
+            document.querySelector('.area_modal').style.display = 'none';
+        }, 200);
+
     })
 
 }
