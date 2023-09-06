@@ -48,12 +48,19 @@ function modal() {
 
             let title = document.querySelector('.title_modal h2');
             let sub_title = document.querySelector('.sub_title_modal p');
+            let infos = document.querySelectorAll('.infos_modal p');
             let image = document.querySelector('.modal_img');
 
             title.innerHTML = element.getAttribute('data-title');
-            sub_title.innerHTML = element.getAttribute('data-sub-title');
             image.src = element.getAttribute('data-src');
 
+            for (let i = 1; i <= infos.length; i++) {
+                infos[i - 1].innerHTML = element.getAttribute('data-info-' + i);
+                
+            }
+
+            sub_title.innerHTML = element.getAttribute('data-sub-title');
+        
         });
 
     });
