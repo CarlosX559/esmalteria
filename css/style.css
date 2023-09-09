@@ -100,6 +100,7 @@ nav ul {
 
 nav ul li {
     list-style: none;
+    text-align: center;
 }
 
 nav ul li a {
@@ -109,6 +110,7 @@ nav ul li a {
     font-weight: 600;
     text-decoration: none;
     transition: all ease 200ms;
+    line-height: 100%;
 }
 
 nav ul li a:hover {
@@ -733,7 +735,7 @@ nav ul li a:hover {
     text-align: center;
     font-family: 'Petrona';
     font-size: var(--font-size-title);
-    font-weight: 300;
+    font-weight: 500;
     line-height: normal;
     margin: 0px;
 }
@@ -972,6 +974,7 @@ footer {
     gap: 20px;
     width: 100%;
     max-width: 1280px;
+    padding: 0px 20px;
 }
 
 .area_redes_int a {
