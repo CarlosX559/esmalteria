@@ -491,6 +491,7 @@ nav ul li a:hover {
 
 .servicos img {
     filter: drop-shadow(16px 7px 28px #E5C6B8);
+    border-radius: 200px;
 }
 
 .info_servicos h3 {
