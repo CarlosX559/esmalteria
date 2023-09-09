@@ -26,7 +26,7 @@
                     <a href="index.html">
                         <img class="logo_menu" src="img/logo-santa-cecilia-aprovado-branco.png" alt="santa cecilia">
                     </a>
-                   
+
 
                     <nav>
                         <ul>
@@ -353,10 +353,9 @@
 
                 <div class="servicos">
                     <img class="area_principal_servicos" src="img/spa.png" alt="" data-title="Spa"
-                        data-info-1="• Spa dos pés Granado" data-info-2="20 minutos"
-                        data-info-3="Cromoterapia" data-info-4="Massagem"
-                        data-info-5="Esfoliação "
-                        data-info-6="Hidratação" data-src="img/modal_spa.png">
+                        data-info-1="• Spa dos pés Granado" data-info-2="20 minutos" data-info-3="Cromoterapia"
+                        data-info-4="Massagem" data-info-5="Esfoliação " data-info-6="Hidratação"
+                        data-src="img/modal_spa.png">
 
                     <div class="info_servicos_title">
                         <h3>
@@ -518,10 +517,10 @@
 
                 <div class="servicos">
                     <img class="area_principal_servicos" src="img/produto_2.png" alt="" data-title="Granado"
-                    data-sub-title="Uma marca super tradicional, de 1870, que iniciou com farmácias ao manipular extratos de plantas e ervas para medicamentos e cosméticos, chegou a ter D. Pedro II como cliente.<br> <br>
+                        data-sub-title="Uma marca super tradicional, de 1870, que iniciou com farmácias ao manipular extratos de plantas e ervas para medicamentos e cosméticos, chegou a ter D. Pedro II como cliente.<br> <br>
                     Tem como compromisso a responsabilidade socioambiental, foi pioneira a usar gordura vegetal em sabonetes e a banir o uso de parabenos em seu portfólio.<br><br>
-                    Possui produtos de alta qualidade com benefícios experienciados por quase todos os brasileiros e por isso, a marca faz parte dos tratamentos mais exclusivos da Esmalteria Santa Cecília." 
-                     data-src="img/granado_modal.png">
+                    Possui produtos de alta qualidade com benefícios experienciados por quase todos os brasileiros e por isso, a marca faz parte dos tratamentos mais exclusivos da Esmalteria Santa Cecília."
+                        data-src="img/granado_modal.png">
 
                     <div class="info_servicos">
                         <h3>
@@ -551,6 +550,71 @@
                     <h2>
                         Galeria
                     </h2>
+                </div>
+
+
+
+                <div class="area_video">
+
+                    <div class="area_player">
+                        <div class="up_container">
+                            <div class="player-wrapper">
+                                <video class="player" width="330" height="600" autoplay="false" preload="metadata"
+                                    controls loop muted playsinline
+                                    controlslist="nodownload noremoteplayback noplaybackrate foobar">
+                                    <source src="video/manicure.mp4" type="video/mp4">
+                                    </source>
+
+                                </video>
+
+                                </video>
+
+
+                                <script>
+
+                                    var player = document.querySelector('.player');
+                                    player.play();
+                                    player.controls = false;
+                                    function playClick() {
+
+                                        player.volume = 1;
+                                        player.muted = false;
+                                        player.currentTime = 0;
+                                        player.controls = false;
+                                        player.play();
+                                        document.querySelector(".thumb_1").style.display = "none";
+                                        document.querySelector(".hidden_controls").style.display = "none";
+
+                                    }
+
+
+                                    function pauseClick() {
+                                        player.pause();
+                                        document.querySelector(".thumb_2").style.display = "flex";
+                                    }
+
+                                    function returnVideo() {
+                                        player.play();
+                                        document.querySelector(".thumb_2").style.display = "none";
+                                    }
+
+                                </script>
+
+
+                                <div class="thumb_1" onclick="playClick()">
+                                    <img src="img/play.png" alt="">
+                                </div>
+
+                                <div class="thumb_2" onclick="returnVideo()">
+                                    <img src="img/play.png" alt="">
+                                </div>
+
+                                <div class="hidden_controls"></div>
+
+                                <div class="glass" onclick="pauseClick()"></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <!--<div class="area_galeria">
@@ -702,7 +766,7 @@
                         items: 1
                     },
                     768: {
-                        items: 1
+                        items: 2
                     },
                     1024: {
                         items: 2
