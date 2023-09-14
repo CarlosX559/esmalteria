@@ -401,7 +401,7 @@ nav ul li a:hover {
     border-radius: 10px;
     max-width: max-content;
     width: 100%;
-    box-shadow: 16px 7px 28px 0px #E5C6B8;
+    /*box-shadow: 16px 7px 28px 0px #E5C6B8;*/
 }
 
 .area_modal_int {
@@ -985,7 +985,12 @@ footer {
 
 
 @media(max-width: 1440px) {
+
     .area_modal {
+        justify-content: center;
+    }
+
+    .area_modal_int {
         max-width: 1000px;
 
     }
@@ -1210,6 +1215,10 @@ footer {
 @media(max-width: 480px) {
     .area_video {
         height: 528px;
+    }
+
+    .area_modal {
+        height: 100%;
     }
 
     :root {
