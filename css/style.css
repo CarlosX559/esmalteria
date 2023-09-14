@@ -443,7 +443,7 @@ nav ul li a:hover {
     color: #BE868C;
     font-size: var(--font-size-title);
     font-weight: 300;
-    line-height: normal;
+    line-height: 100%;
     margin: 0px;
 }
 
