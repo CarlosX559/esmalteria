@@ -20,6 +20,7 @@ body {
     padding: 0px;
     box-sizing: border-box;
     background-color: #F1EAE3;
+  
 }
 
 a {
@@ -832,6 +833,7 @@ nav ul li a:hover {
     justify-content: center;
     width: 100%;
     padding: 40px 0px 40px 0px;
+    overflow-x: hidden !important;
 }
 
 .fNqGxJ {
@@ -1101,7 +1103,7 @@ footer {
         flex-direction: column;
         align-items: center;
         width: 100%;
-        gap: 10px;
+        gap: 15px;
     }
 
     .menu_mobile nav ul li a {
@@ -1230,10 +1232,15 @@ footer {
         max-height: 250px;
         object-fit: cover;
     }
+
     .area_modal_int {
         padding: 0px 20px;
     }
-    
+
+    .modal {
+        margin-top: 20px;
+    }
+
     .area_text_slide_total {
         max-width: 400px;
     }
