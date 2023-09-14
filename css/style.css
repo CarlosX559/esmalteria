@@ -1233,6 +1233,13 @@ footer {
         object-fit: cover;
     }
 
+    .sub_title_modal p {
+        font-size: 16px;
+    }
+    .area_texts_modal {
+        gap: 5px;
+    }
+
     .area_modal_int {
         padding: 0px 20px;
     }
