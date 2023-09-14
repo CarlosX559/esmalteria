@@ -263,7 +263,7 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     width: 100%;
-    padding: 60px 0px 40px 0px;
+    padding: 60px 0px 0px 0px;
 }
 
 .container_2_int {
@@ -355,7 +355,7 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     width: 100%;
-    padding: 40px 0px 60px 0px;
+    padding: 40px 0px 40px 0px;
 }
 
 .container_servicos_int {
@@ -363,7 +363,7 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 40px;
+    gap: 30px;
     max-width: 1280px;
     width: 100%;
 }
@@ -575,7 +575,7 @@ nav ul li a:hover {
     width: 100%;
     background: #AA8878;
     box-shadow: 7px 23px 31px 0px #8C6553 inset;
-    padding: 60px 0px 60px 0px;
+    padding: 40px 0px 40px 0px;
 }
 
 .container_galeria {
@@ -589,7 +589,7 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 40px;
+    gap: 30px;
     width: 100%;
     max-width: 1440px;
 
@@ -831,7 +831,7 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     width: 100%;
-    padding: 60px 0px 60px 0px;
+    padding: 40px 0px 40px 0px;
 }
 
 .fNqGxJ {
