@@ -1229,7 +1229,6 @@ footer {
     }
 
     .modal_img {
-        max-height: 250px;
         object-fit: cover;
     }
 
@@ -1238,6 +1237,8 @@ footer {
     }
     .area_texts_modal {
         gap: 5px;
+        height: 200px;
+        overflow-y: scroll;
     }
 
     .area_modal_int {
