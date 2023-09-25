@@ -9,6 +9,7 @@
     --font-color-subtitles: #777A6F;
     --font-size-title: 40px;
     --font-size-subtitle: 20px;
+    --font-size-subtitle-2: 18px;
 }
 
 html {
@@ -374,8 +375,44 @@ nav ul li a:hover {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 50px;
+    row-gap: 20px;
+    column-gap: 40px;
+    max-width: 1000px;
     width: 100%;
+}
+
+.btn_comprar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 48px;
+    background-color: #777A6F;
+    max-width: 216px;
+    padding: 10px 20px;
+    transition: all ease 200ms;
+}
+
+.btn_comprar:hover {
+    background-color: #F6F1EC;
+    box-shadow: 16px 7px 28px 0px #E5C6B8;
+}
+
+.btn_comprar:hover>h2 {
+    color: #777A6F;
+}
+
+
+.btn_comprar h2 {
+    color: #FFFFFF;
+    font-family: 'Source Sans 3';
+    font-size: var(--font-size-subtitle);
+    font-weight: 600;
+    line-height: normal;
+    margin: 0px;
+}
+
+.btn_comprar_link {
+    max-width: max-content;
 }
 
 .title_servicos h2 {
@@ -393,7 +430,7 @@ nav ul li a:hover {
     position: fixed;
     background-color: #f1eae3c7;
     width: 100%;
-    height: 102vh;
+    height: 100vh;
     z-index: 99;
     top: 0px;
 }
@@ -437,6 +474,8 @@ nav ul li a:hover {
     gap: 20px;
     width: 100%;
     max-width: 525px;
+    max-height: 980px;
+    overflow-x: auto;
 }
 
 .title_modal h2 {
@@ -460,11 +499,21 @@ nav ul li a:hover {
 .infos_modal p {
     color: #777A6F;
     font-family: 'Source Sans 3';
-    font-size: var(--font-size-subtitle);
+    font-size: var(--font-size-subtitle-2);
     font-weight: 400;
     line-height: normal;
     margin: 0px;
     text-transform: uppercase;
+}
+
+.info_desc p {
+    font-family: 'Source Sans 3';
+    color: #777A6F;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px;
+    padding-left: 20px;
 }
 
 .area_info_modal {
@@ -496,6 +545,14 @@ nav ul li a:hover {
     filter: drop-shadow(16px 7px 28px #E5C6B8);
     border-radius: 200px;
 }
+
+.area_texts_servicos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
 
 .info_servicos h3 {
     color: #777A6F;
@@ -802,6 +859,7 @@ nav ul li a:hover {
     width: 30px !important;
     display: flex;
     border-radius: 100px;
+    box-shadow: rgb(51 51 51 / 30%) 2px 2px 4px 0px;
 }
 
 .slide-2 .owl-nav {
@@ -1217,6 +1275,11 @@ footer {
 @media(max-width: 480px) {
     .area_video {
         height: 528px;
+    }
+
+    .info_desc p {
+        margin: 5px 0px 10px 0px;
+        padding-left: 0px;
     }
 
     .area_modal {

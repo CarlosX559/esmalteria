@@ -49,6 +49,7 @@ function modal() {
             let title = document.querySelector('.title_modal h2');
             let sub_title = document.querySelector('.sub_title_modal p');
             let infos = document.querySelectorAll('.infos_modal p');
+            let infos_desc = document.querySelectorAll('.info_desc p');
             let image = document.querySelector('.modal_img');
 
             title.innerHTML = element.getAttribute('data-title');
@@ -56,6 +57,11 @@ function modal() {
 
             for (let i = 1; i <= infos.length; i++) {
                 infos[i - 1].innerHTML = element.getAttribute('data-info-' + i);
+                
+            }
+
+            for (let i = 1; i <= infos_desc.length; i++) {
+                infos_desc[i - 1].innerHTML = element.getAttribute('data-desc-' + i);
                 
             }
 
