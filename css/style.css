@@ -453,13 +453,13 @@ nav ul li a:hover {
 .modal {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     gap: 40px;
     border-radius: 28px;
     background: #F4EFEA;
     box-shadow: 16px 7px 28px 0px #E5C6B8;
     width: 100%;
-    padding: 60px 40px;
+    padding: 40px 40px;
     max-width: 1240px;
     position: relative;
 }
@@ -474,7 +474,7 @@ nav ul li a:hover {
     gap: 20px;
     width: 100%;
     max-width: 525px;
-    max-height: 980px;
+    max-height: 500px;
     overflow-x: auto;
 }
 
