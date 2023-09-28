@@ -437,7 +437,7 @@ nav ul li a:hover {
 
 .modal_img {
     border-radius: 10px;
-    max-width: max-content;
+    max-width: 500px;
     width: 100%;
     /*box-shadow: 16px 7px 28px 0px #E5C6B8;*/
 }
@@ -471,7 +471,7 @@ nav ul li a:hover {
 .area_texts_modal {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
     width: 100%;
     max-width: 525px;
     max-height: 500px;
