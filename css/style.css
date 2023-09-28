@@ -476,6 +476,8 @@ nav ul li a:hover {
     max-width: 525px;
     max-height: 500px;
     overflow-x: auto;
+    text-align: justify;
+    padding-right: 10px;
 }
 
 .title_modal h2 {
@@ -522,6 +524,8 @@ nav ul li a:hover {
     height: 100%;
     flex-direction: column;
     gap: 10px;
+    text-align: justify;
+    padding-right: 10px;
 }
 
 .close_modal {
@@ -1293,6 +1297,7 @@ footer {
 
     .modal_img {
         object-fit: cover;
+        max-height: 400px;
     }
 
     .sub_title_modal p {
