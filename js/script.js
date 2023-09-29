@@ -28,8 +28,7 @@ function menu() {
 
     );
 }
-menu();
-
+window.addEventListener( 'load',  menu());
 
 function modal() {
 
@@ -84,4 +83,4 @@ function modal() {
 
 }
 
-modal();
+window.addEventListener( 'load',  modal());
