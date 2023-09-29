@@ -998,7 +998,6 @@ footer {
     color: #FFFFFF;
 }
 
-
 .btn_footer h2 {
     color: #777A6F;
     font-family: 'Source Sans 3';
@@ -1010,6 +1009,34 @@ footer {
 
 .btn_link {
     max-width: max-content;
+}
+
+.area_endereco {
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+}
+
+.title_endereco h2 {
+    color: #F6F1EC;
+    font-family: 'Source Sans 3';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 100%;
+    margin: 0px;
+}
+
+.endereco p {
+    color: #F6F1EC;
+    font-family: 'Source Sans 3';
+    font-size: var(--font-size-subtitle-2);
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0px;
 }
 
 .title_slide h2 {
@@ -1250,8 +1277,6 @@ footer {
         gap: 20px;
     }
 
-
-
     footer {
         height: 320px;
     }
@@ -1439,7 +1464,15 @@ footer {
     }
 
     footer {
-        height: 250px;
+        height: 300px;
+    }
+
+    .title_endereco h2 {
+        font-size: 22px;
+    }
+
+    .endereco p {
+        font-size: 16px;
     }
 
     .area_footer {
