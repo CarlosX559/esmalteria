@@ -851,7 +851,7 @@ nav ul li a:hover {
 .slide-2.owl-theme .owl-dots .owl-dot span {
     width: 15px !important;
     height: 15px !important;
-    background: #FFFFFF !important;
+    background: #CDB398 !important;
     margin: 0px !important;
     transition: all ease 200ms !important;
     display: flex;
@@ -860,7 +860,7 @@ nav ul li a:hover {
 
 .slide-2.owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-    background-color: #F1EAE3 !important;
+    background-color:#CDB398 !important;
     height: 15px !important;
     width: 30px !important;
     display: flex;
@@ -922,7 +922,6 @@ nav ul li a:hover {
     gap: 40px;
 }
 
-
 .title_feedback h2 {
     color: #BE868C;
     text-align: center;
@@ -931,6 +930,117 @@ nav ul li a:hover {
     line-height: normal;
     margin: 0px;
 }
+
+.card_depoimentos {
+    max-width: 350px;
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    background: linear-gradient(178deg, rgb(249, 246, 243) 0%, rgba(241, 234, 227, 0) 100%);
+    box-shadow: rgb(229, 198, 184) 16px 7px 28px 0px inset;
+    padding: 40px 25px;
+}
+
+.card_depoimentos_int {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.area_avaliacao {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.area_estrelas {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.area_estrelas img {
+    max-width: 20px !important;
+    width: 100% !important;
+}
+
+.title_depoimentos h2 {
+    color: #BE868C;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: -0.64px;
+    margin: 0px;
+}
+
+.sub_title_depoimentos p {
+    color: #777a6f;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.4;
+    letter-spacing: -0.4px;
+    margin: 0px;
+}
+
+
+.slide-3 {
+    display: flex !important;
+    justify-content: flex-end;
+    width: 100% !important;
+    width: 100% !important;
+    max-width: 1600px;
+}
+
+.slide-3 .item {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.slide-3 .item img {
+    max-width: max-content;
+    width: 100% !important;
+}
+
+.slide-3 .owl-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+    margin-top: 0px !important;
+}
+
+.slide-3.owl-theme .owl-dots .owl-dot span {
+    width: 15px !important;
+    height: 15px !important;
+    background: rgb(170, 136, 120) !important;
+    margin: 0px !important;
+    transition: all ease 200ms !important;
+    display: flex;
+    border-radius: 100px;
+}
+
+.slide-3.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background-color: rgb(170, 136, 120) !important;
+    height: 15px !important;
+    width: 30px !important;
+    display: flex;
+    border-radius: 100px;
+    box-shadow: rgb(51 51 51 / 30%) 2px 2px 4px 0px;
+}
+
+.slide-3 .owl-nav {
+    height: 100%;
+}
+
 
 
 /*Footer*/
@@ -1461,6 +1571,16 @@ footer {
         max-width: 30px;
         width: 100%;
         cursor: pointer;
+    }
+
+    .sub_title_depoimentos {
+        height: 140px;
+        overflow-x: scroll;
+    }
+
+    .area_endereco {
+        padding: 0px 20px;
+        width: auto;
     }
 
     footer {
